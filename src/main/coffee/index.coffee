@@ -15,6 +15,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #----------------------------------------------------------------------
 
+exports.LineStream = require("./lineStream").LineStream
+exports.ParagraphStream = require("./paragraphStream").ParagraphStream
 exports.VERSION = require("../package.json").version
 
 #----------------------------------------------------------------------

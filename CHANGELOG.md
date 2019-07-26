@@ -18,8 +18,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - in case of vulnerabilities
 
+## [0.0.2] - 2019-06-26
+### Added
+- LineStream class for processing files line by line
+- ParagraphStream class for processing files paragraph by paragraph
+### Fixed
+- Removed spurious 'rebuild' cake command in README.md
+
 ## 0.0.1 - 2019-06-24
 ### Added
 - Project structure and metadata
 
-[Unreleased]: https://github.com/blinkdog/debian-control/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/blinkdog/debian-control/compare/v0.0.2...HEAD
+[0.0.2]: https://github.com/blinkdog/debian-control/compare/v0.0.1...v0.0.2

@@ -7,6 +7,12 @@ TODO: Explain why someone would use this software
 ## API and Examples
 TODO: Explain how someone would use this software
 
+### LineStream
+TODO: Explain how someone would use the LineStream class
+
+### ParagraphStream
+TODO: Explain how someone would use the ParagraphStream class
+
 ## Development
 In order to make modifications to `debian-control`, you'll need to establish
 a development environment:
@@ -18,7 +24,7 @@ a development environment:
 
 The `cake` command will list the tasks available in the `Cakefile`:
 
-    node_modules/.bin/cake rebuild
+    node_modules/.bin/cake
 
 ### Code Coverage
 You can see a test coverage report for `debian-control` using a task from

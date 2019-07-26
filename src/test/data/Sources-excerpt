@@ -1,0 +1,123 @@
+Package: bzflag
+Binary: bzflag, bzflag-client, bzflag-data, bzflag-server
+Version: 2.4.18-1
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Ryan Kavanagh <rak@debian.org>, Tim Riker <Tim@Rikers.org>
+Build-Depends: debhelper (>= 11), groff, libc-ares-dev, libcpputest-dev, libcurl4-gnutls-dev | libcurl4-dev | libcurl-dev, libgl1-mesa-dev | libgl-dev | libglu-dev, libglew-dev, libncurses5-dev | libncurses-dev, libsdl1.2-dev | libsdl-dev
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1e3625f940b7e6550ca42a2694060320 2445 bzflag_2.4.18-1.dsc
+ 0fe12fd223c3cff250d0ee31a799ec40 14112348 bzflag_2.4.18.orig.tar.gz
+ 347c4abffed46354edcde98d5e62011b 20008 bzflag_2.4.18-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-games/bzflag.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-games/bzflag.git
+Checksums-Sha256:
+ e33db6774598a9e821887d1c2ca42e71b3e3c0244d5caa09af319c6d165485df 2445 bzflag_2.4.18-1.dsc
+ 667349264bb355eb9d40f85210415bcae7ce398051f17c67d68df95c6ed4b04b 14112348 bzflag_2.4.18.orig.tar.gz
+ dea182654b9a5c310d8157ea5dc7dee8b591abe7764cbd34d78a6acbfc69ea87 20008 bzflag_2.4.18-1.debian.tar.xz
+Homepage: http://bzflag.org/
+Package-List:
+ bzflag deb games optional arch=all
+ bzflag-client deb games optional arch=any
+ bzflag-data deb games optional arch=all
+ bzflag-server deb games optional arch=any
+Directory: pool/main/b/bzflag
+Priority: source
+Section: games
+
+Package: bzip2
+Binary: libbz2-1.0, libbz2-dev, bzip2, bzip2-doc
+Version: 1.0.6-9
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Uploaders: Santiago Ruano Rincón <santiago@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.0), debhelper (>= 11)
+Build-Depends-Indep: texinfo, docbook-xml, docbook2x, xsltproc
+Architecture: any all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 95bb8342e0d76b7dc702b93372435330 2185 bzip2_1.0.6-9.dsc
+ 2a1df12bd405cc86790291797673753c 708737 bzip2_1.0.6.orig.tar.bz2
+ 27d46a89b72b25473e86ccb71e9eb7a1 25873 bzip2_1.0.6-9.debian.tar.bz2
+Vcs-Browser: https://salsa.debian.org/debian/bzip2
+Vcs-Git: https://salsa.debian.org/debian/bzip2.git
+Checksums-Sha256:
+ f27d7febca8dbc1519bdacac3ee0b5a2d9cf9845e50dbb7b13c0e6daa17ab28e 2185 bzip2_1.0.6-9.dsc
+ d70a9ccd8bdf47e302d96c69fecd54925f45d9c7b966bb4ef5f56b770960afa7 708737 bzip2_1.0.6.orig.tar.bz2
+ d1a91bf31bc60384f56fa2dd55cfdc07e27dbbbf295db2248b65afed0ca141a2 25873 bzip2_1.0.6-9.debian.tar.bz2
+Homepage: https://web.archive.org/web/20180801004107/http://www.bzip.org/
+Package-List:
+ bzip2 deb utils standard arch=any
+ bzip2-doc deb doc optional arch=all
+ libbz2-1.0 deb libs important arch=any
+ libbz2-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Extra-Source-Only: yes
+Directory: pool/main/b/bzip2
+Priority: source
+Section: utils
+
+Package: bzip2
+Binary: libbz2-1.0, libbz2-dev, bzip2, bzip2-doc
+Version: 1.0.6-9.1
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Uploaders: Santiago Ruano Rincón <santiago@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.0), debhelper (>= 11)
+Build-Depends-Indep: texinfo, docbook-xml, docbook2x, xsltproc
+Architecture: any all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e1b1a73de8db0210ba39b68999256c10 2348 bzip2_1.0.6-9.1.dsc
+ 2a1df12bd405cc86790291797673753c 708737 bzip2_1.0.6.orig.tar.bz2
+ a432d1edfb06b97769b20b404015ff7b 26512 bzip2_1.0.6-9.1.debian.tar.bz2
+Vcs-Browser: https://salsa.debian.org/debian/bzip2
+Vcs-Git: https://salsa.debian.org/debian/bzip2.git
+Checksums-Sha256:
+ 21cab309681e335132b61a2f17910dcb0538697ce1ac4868ec45630fb5e0ca43 2348 bzip2_1.0.6-9.1.dsc
+ d70a9ccd8bdf47e302d96c69fecd54925f45d9c7b966bb4ef5f56b770960afa7 708737 bzip2_1.0.6.orig.tar.bz2
+ 0642536bb5fb5e6b224d3852f72d5401f31e75cb1ac76a2e5daeb6b8780c13b5 26512 bzip2_1.0.6-9.1.debian.tar.bz2
+Homepage: https://web.archive.org/web/20180801004107/http://www.bzip.org/
+Package-List:
+ bzip2 deb utils standard arch=any
+ bzip2-doc deb doc optional arch=all
+ libbz2-1.0 deb libs important arch=any
+ libbz2-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/b/bzip2
+Priority: source
+Section: utils
+
+Package: bzr
+Binary: bzr, python-bzrlib, python-bzrlib-dbg, python-bzrlib.tests, bzr-doc
+Version: 2.7.0+bzr6622-15
+Maintainer: Debian Bazaar Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>
+Uploaders: Wouter van Heyst <larstiq@larstiq.dyndns.org>, Andrew Starr-Bochicchio <asb@debian.org>, Jelmer Vernooĳ <jelmer@debian.org>, Vincent Ladeuil <v.ladeuil+lp@free.fr>
+Build-Depends: bash-completion, ca-certificates, cython-dbg (>= 0.25.2-2), debhelper (>= 9), fdupes, openssl, python (>= 2.6.6-3), python-all-dbg (>= 2.6.6-3), python-all-dev (>= 2.6.6-3), python-configobj (>= 4.7.2+ds-2), python-docutils, python-lzma [!m68k !powerpcspe !sh4], python-medusa, python-meliae, python-paramiko (<< 1.12.0) | python-paramiko (>= 1.14.1), python-pycurl, python-sphinx (>= 1.0.7+dfsg), python-stemmer, python-subunit, python-testtools (>= 2.3.0~)
+Architecture: any all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 36703c6373f43e8f80e6007bac648f28 2923 bzr_2.7.0+bzr6622-15.dsc
+ 2a80387c6da55a8f635ba08073b76994 10948360 bzr_2.7.0+bzr6622.orig.tar.gz
+ c6350455296927712e017107d5ec0033 92936 bzr_2.7.0+bzr6622-15.debian.tar.xz
+Vcs-Browser: https://code.launchpad.net/~debian-bazaar/debian/sid/bzr/unstable
+Vcs-Bzr: https://code.launchpad.net/~debian-bazaar/debian/sid/bzr/unstable
+Checksums-Sha256:
+ ce3ad2a536c52343f06d7393a7f76ef3855bc91daa596e9e8e895bf289d2e43d 2923 bzr_2.7.0+bzr6622-15.dsc
+ 08bba3e76cba9beb6b686e71253045beeab9db94753ddbcafa0f8ed1cba377ff 10948360 bzr_2.7.0+bzr6622.orig.tar.gz
+ d2198b93059cc9d37c551f7bfda19a199c18f4c9c6104a8c40ccd6d0c65e6fd3 92936 bzr_2.7.0+bzr6622-15.debian.tar.xz
+Homepage: https://bazaar-vcs.org
+Package-List:
+ bzr deb vcs optional arch=all
+ bzr-doc deb doc optional arch=all
+ python-bzrlib deb python optional arch=any
+ python-bzrlib-dbg deb debug extra arch=any
+ python-bzrlib.tests deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, python-lzma, python-medusa, python-meliae, python-pycurl, python-subunit
+Directory: pool/main/b/bzr
+Priority: source
+Section: vcs

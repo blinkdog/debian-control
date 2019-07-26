@@ -19,8 +19,16 @@ should = require "should"
 mut = require "../lib/index"
 
 describe "index", ->
+    it "should supply the LineStream class", ->
+        mut.LineStream.should.be.ok()
+        mut.LineStream.should.be.a.Function()
+
+    it "should supply the ParagraphStream class", ->
+        mut.ParagraphStream.should.be.ok()
+        mut.ParagraphStream.should.be.a.Function()
+
     it "should supply a VERSION constant", ->
-        mut.VERSION.should.equal "0.0.1"
+        mut.VERSION.should.equal "0.0.2"
 
 #----------------------------------------------------------------------
 # end of indexTest.coffee
