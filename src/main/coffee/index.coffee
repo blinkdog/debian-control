@@ -18,6 +18,11 @@
 exports.LineStream = require("./lineStream").LineStream
 exports.ParagraphStream = require("./paragraphStream").ParagraphStream
 exports.VERSION = require("../package.json").version
+exports.isContinueLine = require("./control").isContinueLine
+exports.isFieldLine = require("./control").isFieldLine
+exports.parse = require("./control").parse
+exports.stringify = require("./control").stringify
+exports.stripSignature = require("./control").stripSignature
 
 #----------------------------------------------------------------------
 # end of index.coffee

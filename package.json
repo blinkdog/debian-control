@@ -1,6 +1,6 @@
 {
     "name": "debian-control",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Parse package control files from Debian",
     "keywords": [
         "binary",

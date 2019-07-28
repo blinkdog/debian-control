@@ -18,6 +18,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 - in case of vulnerabilities
 
+## [0.0.3] - 2019-06-28
+### Added
+- Added new functions for control file parsing
+- Added control parsing functions to the module index
+- Placeholder stubs for API documentation in README.md
+
 ## [0.0.2] - 2019-06-26
 ### Added
 - LineStream class for processing files line by line
@@ -29,5 +35,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Project structure and metadata
 
-[Unreleased]: https://github.com/blinkdog/debian-control/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/blinkdog/debian-control/compare/v0.0.3...HEAD
+[0.0.2]: https://github.com/blinkdog/debian-control/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/blinkdog/debian-control/compare/v0.0.1...v0.0.2

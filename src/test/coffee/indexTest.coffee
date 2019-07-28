@@ -18,6 +18,8 @@
 should = require "should"
 mut = require "../lib/index"
 
+CONTROL_FUNCTIONS = [ "isContinueLine", "isFieldLine", "parse", "stringify", "stripSignature" ]
+
 describe "index", ->
     it "should supply the LineStream class", ->
         mut.LineStream.should.be.ok()
@@ -28,7 +30,12 @@ describe "index", ->
         mut.ParagraphStream.should.be.a.Function()
 
     it "should supply a VERSION constant", ->
-        mut.VERSION.should.equal "0.0.2"
+        mut.VERSION.should.equal "0.0.3"
+
+    it "should supply some control parsing functions", ->
+        mut.should.have.properties CONTROL_FUNCTIONS
+        for func in CONTROL_FUNCTIONS
+            mut[func].should.be.a.Function()
 
 #----------------------------------------------------------------------
 # end of indexTest.coffee

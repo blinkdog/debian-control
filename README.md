@@ -7,6 +7,24 @@ TODO: Explain why someone would use this software
 ## API and Examples
 TODO: Explain how someone would use this software
 
+### Control Parsing
+TODO: Explain how someone would use the control parsing functions
+
+#### isContinueLine
+TODO: Explain how someone would use the isContinueLine function
+
+#### isFieldLine
+TODO: Explain how someone would use the isFieldLine function
+
+#### parse
+TODO: Explain how someone would use the parse function
+
+#### stringify
+TODO: Explain how someone would use the stringify function
+
+#### stripSignature
+TODO: Explain how someone would use the stripSignature function
+
 ### LineStream
 TODO: Explain how someone would use the LineStream class
 
