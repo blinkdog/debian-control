@@ -30,7 +30,7 @@ describe "index", ->
         mut.ParagraphStream.should.be.a.Function()
 
     it "should supply a VERSION constant", ->
-        mut.VERSION.should.equal "0.0.3"
+        mut.VERSION.should.equal "1.0.0"
 
     it "should supply some control parsing functions", ->
         mut.should.have.properties CONTROL_FUNCTIONS
